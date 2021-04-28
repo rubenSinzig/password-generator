@@ -7,8 +7,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f1faff;
   .box {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: #5b92b2c5;
     border-radius: 1rem;
     width: 30rem;
     height: 20rem;
@@ -25,7 +27,7 @@ body {
       display: flex;
       justify-content: center;
       align-items: center;
-      border-bottom: 1px solid black;
+      border-bottom: 1px solid #d9f1ff;
       img {
         width: 3.5rem;
         height: 3.5rem;
@@ -43,6 +45,11 @@ body {
       }
       select {
         width: 20%;
+        background-color: #12475c;
+        color: #d9f1ff;
+        &:hover {
+          box-shadow: inset 0 0 0.4rem 0.1rem #5b92b2;
+        }
       }
       input {
         width: 75%;
@@ -51,9 +58,16 @@ body {
       button {
         width: 15rem;
         height: 3rem;
+        background-color: #12475c;
+        border: none;
+        border-radius: 5px;
+        color: #d9f1ff;
+        &:hover {
+          box-shadow: inset 0 0 0.4rem 0.1rem #5b92b2;
+        }
       }
       .copy {
-        width: 25%;
+        width: 20%;
         height: 1.6rem;
       }
     }
