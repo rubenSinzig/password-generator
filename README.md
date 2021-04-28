@@ -1,8 +1,8 @@
-![File Icon](/src/images/readme-icon.png)
+![File Icon](src/images/readme-icon.png)
 
-## Project Name
+## Password Generator
 
-**[View Project](#)**
+**[View Project](https://rubensinzig.github.io/password-generator/)**
 
 ---
 
@@ -22,19 +22,19 @@
 
 ---
 
-[![Screenshot from Project](/src/images/readme-screenshot.png)](#)
+[![Screenshot from Project](src/images/project-screenshot.png)](https://rubensinzig.github.io/password-generator/)
 
 ### About Project
 
-Project description
+An app developed with HTML, SCSS and JavaScript to generate random passwords with the ability to copy the generated password to the clipboard.
 
 ##### Developed With
 
-- [ ] _HTML5_
+- [x] _HTML5_ --> [go to file](https://github.com/rubenSinzig/password-generator/blob/main/src/index.html)
 - [ ] _CSS3_
 - [ ] _SASS_
-- [ ] _SCSS_
-- [ ] _JavaScript_
+- [x] _SCSS_ --> [go to folder](https://github.com/rubenSinzig/password-generator/tree/main/src/scss)
+- [x] _JavaScript_ --> [go to file](https://github.com/rubenSinzig/password-generator/blob/main/src/scripts/index.js)
 - [ ] _React_
 - [ ] _Bootstrap_
 - [ ] _..._
