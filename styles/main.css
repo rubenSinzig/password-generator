@@ -6445,15 +6445,24 @@ body .box .generate {
   align-items: center;
   flex-direction: column;
 }
+body .box .generate div {
+  display: flex;
+  width: 80%;
+}
 body .box .generate select {
   width: 20%;
 }
 body .box .generate input {
-  width: 85%;
+  width: 75%;
+  height: 1.25rem;
 }
 body .box .generate button {
   width: 15rem;
   height: 3rem;
+}
+body .box .generate .copy {
+  width: 25%;
+  height: 1.6rem;
 }
 
 /*# sourceMappingURL=main.css.map */
