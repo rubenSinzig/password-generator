@@ -23,3 +23,11 @@ const passwordGen = () => {
   //console.log(password);
   document.querySelector("#password").value = password;
 };
+
+// function for copy to clipboard
+
+const copyPassword = () => {
+  let copyPassword = document.querySelector("#password");
+  copyPassword.select();
+  document.execCommand("copy");
+};
